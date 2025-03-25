@@ -8,6 +8,7 @@
     "typescript": "^5.7.3"
   },
   "scripts": {
-    "test": "playwright test --project chromium --headed"
+    "test": "playwright test --project chromium --headed",
+    "test:headless": "playwright test --project firefox" 
   }
 }
